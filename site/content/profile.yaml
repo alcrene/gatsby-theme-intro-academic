@@ -1,0 +1,30 @@
+- profile:
+  initials: AR
+  name: Alexandre René
+  profession: Researcher, physicist
+  image: images/profile.jpg
+  location: Aachen, Germany
+  relocation: false
+  company: RWTH Aachen
+  for_hire: false
+  focus: Inverse problems for time series
+  focus_url: blank
+  about: |
+    I try use computers to push the boundaries physicis and scientific research.
+
+    I am particulary interested in finding novel ways to understand how natural and artificial systems perform computations.
+  skills:
+    - Bayesian inference
+    - Dynamical systems
+    - Machine learning
+    - Software library development (Python)
+  tools:
+    - Dynamical systems theory
+    - Aesara
+    - PyMC3
+    - Python
+  budget:
+    currency: €
+    min: 5
+    max: 30
+    default: 10

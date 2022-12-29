@@ -1,13 +1,17 @@
 {
-  "name": "gatsby-starter-theme-workspace",
+  "name": "portfolio-project",
   "private": true,
   "version": "0.0.1",
-  "license": "0BSD",
+  "license": "CC-BY-NC-SA-4.0",
   "scripts": {
-    "build": "yarn workspace example build"
+    "build": "yarn workspace site build",
+    "clean": "yarn workspace site clean",
+    "develop": "yarn workspace site develop"
   },
   "workspaces": [
-    "gatsby-theme-minimal",
-    "example"
-  ]
+    "gatsby-theme-intro",
+    "gatsby-theme-intro-academic",
+    "site"
+  ],
+  "packageManager": "yarn@3.3.1"
 }
