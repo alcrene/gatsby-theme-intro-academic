@@ -1,17 +1,19 @@
 module.exports = {
+  siteMetadata: {
+    description: "Personal page of Jane Doe",
+    locale: "en",
+    title: "Jane Doe",
+  },
   plugins: [
     {
-      resolve: "gatsby-theme-intro",
+      resolve: "@arene/gatsby-theme-intro-academic",
       options: {
         basePath: "/",
         contentPath: "content/",
         showThemeLogo: true,
         theme: "classic",
-      }
-    },
-    {
-      resolve: `gatsby-theme-intro-academic`,
-      options: {}
+        darktheme: "dark-blue"
+      },
     },
   ],
 }

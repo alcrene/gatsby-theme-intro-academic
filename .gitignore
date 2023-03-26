@@ -11,6 +11,3 @@ node_modules
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-
-# gatsby-theme-intro has its own repo
-gatsby-theme-intro

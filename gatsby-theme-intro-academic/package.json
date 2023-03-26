@@ -1,13 +1,62 @@
 {
-  "name": "gatsby-theme-intro-academic",
+  "name": "@arene/gatsby-theme-intro-academic",
+  "description": "Personal branding theme for academics",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "Alexandre René <...@arene.ca>",
   "license": "CC-BY-NC-SA-4.0",
+  "main": "index.js",
+  "dependencies": {
+    "@arene/gatsby-theme-intro": "workspace:^",
+    "@babel/core": "^7.21.3",
+    "autoprefixer": "^10.4.14",
+    "color": "^4.2.3",
+    "gatsby-plugin-image": "^3.8.0",
+    "gatsby-plugin-postcss": "^6.8.0",
+    "gatsby-plugin-react-svg": "^3.3.0",
+    "gatsby-plugin-sharp": "^5.8.0",
+    "gatsby-source-filesystem": "^5.8.0",
+    "gatsby-transformer-sharp": "^5.8.0",
+    "gatsby-transformer-yaml": "^5.8.0",
+    "postcss": "*",
+    "postcss-input-range": "^5.0.0",
+    "prettier": "^2.8.7",
+    "prop-types": "*",
+    "react-icons": "*",
+    "react-tabs": "^6.0.0",
+    "tailwindcss": "*"
+  },
   "peerDependencies": {
     "gatsby": "^5.0.0",
-    "gatsby-theme-intro": "workspace:^",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-theme",
+    "gatsby-theme-intro",
+    "gatsby-theme-intro-academic",
+    "personal",
+    "react",
+    "website",
+    "academic",
+    "scholar",
+    "research"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alcrene/gatsby-theme-intro-academic"
+  },
+  "bugs": {
+    "url": "https://github.com/alcrene/gatsby-theme-intro-academic/issues"
   }
 }

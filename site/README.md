@@ -1,3 +1,3 @@
-# Alexandre René's personal website
+# Gatsby Academic Theme Intro Example
 
-A personal website based on Wojciech Kocjan's [intro](https://github.com/wkocjan/gatsby-theme-intro) Gatsby template, with some modifications.
+A usage of [gatsby-theme-intro-academic](https://github.com/alcrene/gatsby-theme-intro-academic) that does nothing but use the theme.

@@ -1,0 +1,13 @@
+- name: Ocean zoology 201
+  url: https://ocean-fishes-201.jdoe.site
+  description: Introduction to the dominant species of fish in worldwide oceans.
+  date: Fall term 2022
+  kind: class
+  image:
+
+- name: Scientific writing
+  url: https://scientific-writing.jdoe.site
+  description: Tutorial on scientific writing.
+  date: 12 Nov 2022
+  kind: tutorial
+  image:

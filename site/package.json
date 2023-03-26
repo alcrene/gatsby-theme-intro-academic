@@ -1,9 +1,6 @@
 {
-  "private": true,
-  "name": "site",
-  "version": "0.0.1",
-  "packageManager": "yarn@3.3.1",
-  "main": "index.js",
+  "name": "academic-demo-site",
+  "version": "1.0.0",
   "author": "Alexandre René <...@arene.ca>",
   "license": "CC-BY-NC-SA-4.0",
   "scripts": {
@@ -12,11 +9,9 @@
     "develop": "gatsby develop"
   },
   "dependencies": {
-    "gatsby": "^5.3.3",
-    "gatsby-theme-intro": "workspace:^",
-    "gatsby-theme-intro-academic": "workspace:^",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "tailwindcss": "^3.2.4"
+    "@arene/gatsby-theme-intro-academic": "*",
+    "gatsby": "^5.8.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   }
 }

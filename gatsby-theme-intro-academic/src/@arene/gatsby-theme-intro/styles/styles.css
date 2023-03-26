@@ -1,0 +1,15 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+div.react-tabs {
+  @apply bg-back dark:bg-back-dark;
+}
+ul.react-tabs__tab-list {
+  @apply bg-back dark:bg-back-dark;
+}
+li.react-tabs__tab.react-tabs__tab--selected {
+  @apply bg-back-light dark:bg-back-light-dark;
+}

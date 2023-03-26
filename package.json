@@ -1,17 +1,18 @@
 {
-  "name": "portfolio-project",
-  "private": true,
-  "version": "0.0.1",
-  "license": "CC-BY-NC-SA-4.0",
-  "scripts": {
-    "build": "yarn workspace site build",
-    "clean": "yarn workspace site clean",
-    "develop": "yarn workspace site develop"
+  "name": "gatsby-theme-intro-academic-project",
+  "version": "3.0.0",
+  "license": "MIT",
+  "packageManager": "yarn@3.5.0",
+  "engines": {
+    "node": ">=18.0.0"
   },
   "workspaces": [
-    "gatsby-theme-intro",
     "gatsby-theme-intro-academic",
     "site"
   ],
-  "packageManager": "yarn@3.3.1"
+  "scripts": {
+    "build": "yarn workspace academic-demo-site build",
+    "develop": "yarn workspace academic-demo-site develop",
+    "clean": "yarn workspace academic-demo-site clean"
+  }
 }
