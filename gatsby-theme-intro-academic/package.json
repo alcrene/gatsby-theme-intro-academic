@@ -1,7 +1,7 @@
 {
   "name": "@arene/gatsby-theme-intro-academic",
   "description": "Personal branding theme for academics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Alexandre René <...@arene.ca>",
   "license": "CC-BY-NC-SA-4.0",
   "main": "index.js",
