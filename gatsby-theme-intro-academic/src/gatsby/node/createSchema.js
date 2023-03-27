@@ -46,15 +46,17 @@ module.exports = ({ actions }) => {
       doi: String
       url: String
       pdf: String
-      tags: [String]!
+      tags: [String]
     }
 
     type TeachingYaml implements Node @dontInfer {
-      name: String!
+      title: String!
+      kind: String
+      format: String
+      length: String
       url: String
       description: String
       date: String
-      kind: String
       image: File @fileByRelativePath
     }
 

@@ -1,10 +1,10 @@
-- authors:
+- title: A fishy review
+  authors:
     - J. Doe
     - S. Phoenix
-  title: A fishy review
   journal: WET
   date: 2022
-  doi:
+  doi: 10.1000/1.0000
   url:
   pdf:
   tags:

@@ -2,11 +2,13 @@ import { graphql } from "gatsby"
 import { arrayOf, shape, string, object, oneOf } from "prop-types"
 
 export const TeachingType = {
-  name: string.isRequired,
+  title: string.isRequired,
+  kind: string, //oneOf(["class", "tutorial"]),
+  format: string, //oneOf["slides", "write-up", "chalk talk", "hand-drawn slides"]
+  length: string,
   url: string,
   description: string,
   date: string,
-  kind: oneOf(["class", "tutorial", "write-up"]),
   image: shape({
     childImageSharp: object.isRequired,
   }),
@@ -14,11 +16,13 @@ export const TeachingType = {
 
 export const query = graphql`
   fragment TeachingFragment on TeachingYaml {
-    name
+    title
+    kind
+    format
+    length
     url
     description
     date
-    kind
     image {
       childImageSharp {
         gatsbyImageData(width: 640, quality: 85)
