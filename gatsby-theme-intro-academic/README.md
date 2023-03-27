@@ -310,7 +310,7 @@ Initial version. Compared to *gatsby-theme-intro*:
 - Heading changes
 - Use of tabs
 - Addition of “Publications” tab
-- 
+- Addition of “Teaching” tab
 
 ## About
 
