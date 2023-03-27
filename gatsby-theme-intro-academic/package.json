@@ -6,7 +6,7 @@
   "license": "CC-BY-NC-SA-4.0",
   "main": "index.js",
   "dependencies": {
-    "@arene/gatsby-theme-intro": "workspace:^",
+    "@arene/gatsby-theme-intro": "^3.0.1",
     "@babel/core": "^7.21.3",
     "autoprefixer": "^10.4.14",
     "color": "^4.2.3",
